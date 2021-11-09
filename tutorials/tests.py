@@ -5,7 +5,7 @@ import pytest
 
 def test_homepage_access():
     url = reverse('home')
-    assert url == "/"
+    assert url == "//"
 
 @pytest.fixture
 def new_tutorial(db):
